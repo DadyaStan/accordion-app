@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.container {
+    width: 1260px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+p, a, div {
+    color: $text-grey;
+}
