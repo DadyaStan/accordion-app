@@ -1,4 +1,4 @@
-<script setup lang="js">
+<script setup>
 import AppHeader from "./components/layout/AppHeader.vue";
 import UserList from "./components/layout/UserList.vue";
 </script>

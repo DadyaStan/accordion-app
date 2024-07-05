@@ -14,7 +14,7 @@ const modelValue = defineModel<string>('modelValue', {
 <template>
     <div class="regular-input">
         <label class="regular-input__label">
-            {{ label }}
+            {{ props.label }}
         </label>
         <input type="text" class="regular-input__input" v-model="modelValue" />
     </div>

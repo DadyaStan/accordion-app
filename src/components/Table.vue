@@ -6,7 +6,7 @@
           <slot name="firstHeading">Column 1</slot>
         </div>
         <div class="table__list">
-          <Input v-for="(value, fieldTitle) in userAddress" :key="fieldTitle" v-model="userAddress[fieldTitle]"
+          <Input v-for="(_, fieldTitle) in userAddress" :key="fieldTitle" v-model="userAddress[fieldTitle]"
             :label="fieldTitle" />
         </div>
       </div>
@@ -15,7 +15,7 @@
           <slot name="secondHeading">Column 2</slot>
         </div>
         <div class="table__list">
-          <Input v-for="(value, fieldTitle) in userCompany" :key="fieldTitle" v-model="userCompany[fieldTitle]"
+          <Input v-for="(_, fieldTitle) in userCompany" :key="fieldTitle" v-model="userCompany[fieldTitle]"
             :label="fieldTitle" />
         </div>
       </div>
@@ -24,7 +24,7 @@
           <slot name="thirdHeading">Column 3</slot>
         </div>
         <div class="table__list">
-          <Input v-for="(value, fieldTitle) in userInfo" :key="fieldTitle" v-model="userInfo[fieldTitle]"
+          <Input v-for="(_, fieldTitle) in userInfo" :key="fieldTitle" v-model="userInfo[fieldTitle]"
             :label="fieldTitle" />
         </div>
       </div>

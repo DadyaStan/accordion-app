@@ -19,17 +19,12 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { User } from '../types/User';
 
 const isOpen = ref<boolean>(false);
 
 const toggle = () => {
   isOpen.value = !isOpen.value;
 };
-
-const props = defineProps<{
-  user: User;
-}>();
 </script>
 
 <style lang="scss">
